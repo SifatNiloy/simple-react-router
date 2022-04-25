@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Friend = (props) => {
     const { id, name, username, email, phone, website } = props.friend;
+
     const friendStyle = {
         border: '3px solid goldenrod',
         padding: '10px',
